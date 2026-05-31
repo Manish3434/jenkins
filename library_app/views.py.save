@@ -1,0 +1,45 @@
+
+from django.shortcuts import render
+
+from .models import Book, Student , BookIssue, BookReturn
+
+
+
+def home(request):
+
+    total_books = Book.objects.count()
+
+    total_students = Student.objects.count()
+
+
+    books_issued = BookIssue.objects.count()
+
+
+
+    context = {
+
+        'total_books': total_books,
+
+        'total_students': total_students,
+
+        'books_issued': books_issued,
+    }
+
+    return render(request, 'home.html', context)
+
+
+
+
+def books(request):
+
+    all_books = Book.objects.all()
+
+    return render(request, 'books.html', {'books': all_books})
+
+
+def students(request):
+
+    all_students = Student.objects.all()
+
+    return render(request, 'students.html', {'students': all_students})
+

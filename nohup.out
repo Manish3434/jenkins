@@ -1,0 +1,1131 @@
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: unrecognized arguments: --bind0.0
+[2026-05-31 11:47:35 +0000] [22479] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 11:47:35 +0000] [22479] [INFO] Listening at: http://0.0.0.0:8000 (22479)
+[2026-05-31 11:47:35 +0000] [22479] [INFO] Using worker: sync
+[2026-05-31 11:47:35 +0000] [22480] [INFO] Booting worker with pid: 22480
+[2026-05-31 11:47:35 +0000] [22481] [INFO] Booting worker with pid: 22481
+[2026-05-31 11:47:35 +0000] [22482] [INFO] Booting worker with pid: 22482
+[2026-05-31 11:47:35 +0000] [22483] [INFO] Booting worker with pid: 22483
+[2026-05-31 11:47:35 +0000] [22479] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 11:47:44 +0000] [22479] [INFO] Handling signal: int
+[2026-05-31 17:17:44 +0530] [22483] [INFO] Worker exiting (pid: 22483)
+[2026-05-31 17:17:44 +0530] [22480] [INFO] Worker exiting (pid: 22480)
+[2026-05-31 17:17:44 +0530] [22482] [INFO] Worker exiting (pid: 22482)
+[2026-05-31 17:17:44 +0530] [22481] [INFO] Worker exiting (pid: 22481)
+[2026-05-31 11:47:45 +0000] [22479] [INFO] Shutting down: Master
+[2026-05-31 11:47:53 +0000] [22494] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 11:47:53 +0000] [22494] [INFO] Listening at: http://0.0.0.0:8000 (22494)
+[2026-05-31 11:47:53 +0000] [22494] [INFO] Using worker: sync
+[2026-05-31 11:47:53 +0000] [22499] [INFO] Booting worker with pid: 22499
+[2026-05-31 11:47:53 +0000] [22500] [INFO] Booting worker with pid: 22500
+[2026-05-31 11:47:53 +0000] [22501] [INFO] Booting worker with pid: 22501
+[2026-05-31 11:47:53 +0000] [22502] [INFO] Booting worker with pid: 22502
+[2026-05-31 11:47:53 +0000] [22494] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 11:48:05 +0000] [22509] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 11:48:05 +0000] [22509] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 11:48:05 +0000] [22509] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 11:48:06 +0000] [22509] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 11:48:06 +0000] [22509] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 11:48:07 +0000] [22509] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 11:48:07 +0000] [22509] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 11:48:08 +0000] [22509] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 11:48:08 +0000] [22509] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 11:48:09 +0000] [22509] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 11:48:09 +0000] [22509] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 11:48:10 +0000] [22509] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2026-05-31 11:49:19 +0000] [22494] [INFO] Handling signal: term
+[2026-05-31 17:19:19 +0530] [22500] [INFO] Worker exiting (pid: 22500)
+[2026-05-31 17:19:19 +0530] [22499] [INFO] Worker exiting (pid: 22499)
+[2026-05-31 17:19:19 +0530] [22501] [INFO] Worker exiting (pid: 22501)
+[2026-05-31 17:19:19 +0530] [22502] [INFO] Worker exiting (pid: 22502)
+[2026-05-31 11:49:19 +0000] [22494] [INFO] Worker (pid:22499) was sent SIGTERM!
+[2026-05-31 11:49:19 +0000] [22494] [INFO] Worker (pid:22500) was sent SIGTERM!
+[2026-05-31 11:49:19 +0000] [22494] [INFO] Worker (pid:22501) was sent SIGTERM!
+[2026-05-31 11:49:19 +0000] [22494] [INFO] Worker (pid:22502) was sent SIGTERM!
+[2026-05-31 11:49:20 +0000] [22494] [INFO] Shutting down: Master
+[2026-05-31 11:49:35 +0000] [22554] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 11:49:35 +0000] [22554] [INFO] Listening at: http://0.0.0.0:8000 (22554)
+[2026-05-31 11:49:35 +0000] [22554] [INFO] Using worker: sync
+[2026-05-31 11:49:35 +0000] [22559] [INFO] Booting worker with pid: 22559
+[2026-05-31 11:49:35 +0000] [22560] [INFO] Booting worker with pid: 22560
+[2026-05-31 11:49:35 +0000] [22561] [INFO] Booting worker with pid: 22561
+[2026-05-31 11:49:35 +0000] [22562] [INFO] Booting worker with pid: 22562
+[2026-05-31 11:49:35 +0000] [22554] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 11:52:01 +0000] [22554] [CRITICAL] WORKER TIMEOUT (pid:22560)
+[2026-05-31 17:22:01 +0530] [22560] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/sync.py", line 140, in handle
+    req = next(parser)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/parser.py", line 111, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 459, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 199, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 471, in parse
+    self.read_into(unreader, buf, stop=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 605, in read_into
+    data = unreader.read()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 36, in read
+    d = self.chunk()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 198, in handle_abort
+    sys.exit(1)
+    ~~~~~~~~^^^
+SystemExit: 1
+[2026-05-31 11:52:02 +0000] [22554] [ERROR] Worker (pid:22560) was sent SIGKILL! Perhaps out of memory?
+[2026-05-31 11:52:02 +0000] [22579] [INFO] Booting worker with pid: 22579
+[2026-05-31 11:52:02 +0000] [22554] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 12:00:58 +0000] [22554] [INFO] Handling signal: term
+[2026-05-31 17:30:58 +0530] [22562] [INFO] Worker exiting (pid: 22562)
+[2026-05-31 17:30:58 +0530] [22559] [INFO] Worker exiting (pid: 22559)
+[2026-05-31 17:30:58 +0530] [22561] [INFO] Worker exiting (pid: 22561)
+[2026-05-31 17:30:58 +0530] [22579] [INFO] Worker exiting (pid: 22579)
+[2026-05-31 12:00:58 +0000] [22554] [INFO] Worker (pid:22559) was sent SIGTERM!
+[2026-05-31 12:00:58 +0000] [22554] [INFO] Worker (pid:22561) was sent SIGTERM!
+[2026-05-31 12:00:58 +0000] [22554] [INFO] Worker (pid:22562) was sent SIGTERM!
+[2026-05-31 12:00:58 +0000] [22554] [INFO] Worker (pid:22579) was sent SIGTERM!
+[2026-05-31 12:00:58 +0000] [22554] [INFO] Shutting down: Master
+[2026-05-31 12:02:38 +0000] [22737] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 12:02:38 +0000] [22737] [INFO] Listening at: http://0.0.0.0:8000 (22737)
+[2026-05-31 12:02:38 +0000] [22737] [INFO] Using worker: sync
+[2026-05-31 12:02:38 +0000] [22742] [INFO] Booting worker with pid: 22742
+[2026-05-31 12:02:38 +0000] [22743] [INFO] Booting worker with pid: 22743
+[2026-05-31 12:02:38 +0000] [22744] [INFO] Booting worker with pid: 22744
+Failed to find attribute 'appication' in 'library_project.wsgi'.
+[2026-05-31 17:32:38 +0530] [22742] [INFO] Worker exiting (pid: 22742)
+[2026-05-31 12:02:38 +0000] [22745] [INFO] Booting worker with pid: 22745
+Failed to find attribute 'appication' in 'library_project.wsgi'.
+[2026-05-31 17:32:38 +0530] [22743] [INFO] Worker exiting (pid: 22743)
+[2026-05-31 12:02:38 +0000] [22737] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 12:02:38 +0000] [22737] [ERROR] Worker (pid:22742) exited with code 4.
+Failed to find attribute 'appication' in 'library_project.wsgi'.
+[2026-05-31 17:32:38 +0530] [22744] [INFO] Worker exiting (pid: 22744)
+[2026-05-31 12:02:38 +0000] [22737] [INFO] Worker (pid:22743) was sent SIGTERM!
+Failed to find attribute 'appication' in 'library_project.wsgi'.
+[2026-05-31 17:32:38 +0530] [22745] [INFO] Worker exiting (pid: 22745)
+[2026-05-31 12:02:39 +0000] [22737] [ERROR] Worker (pid:22744) exited with code 4.
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 246, in run
+    handler()
+    ~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 271, in handle_chld
+    self.reap_workers()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 644, in reap_workers
+    raise HaltServer(reason, self.APP_LOAD_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'App failed to load.' 4>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+             ~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/wsgiapp.py", line 66, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]", prog=prog).run()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/base.py", line 235, in run
+    super().run()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/base.py", line 71, in run
+    Arbiter(self).run()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 254, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 378, in halt
+    self.stop()
+    ~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 458, in stop
+    self.reap_workers()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 644, in reap_workers
+    raise HaltServer(reason, self.APP_LOAD_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'App failed to load.' 4>
+[2026-05-31 12:04:27 +0000] [22791] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 12:04:27 +0000] [22791] [INFO] Listening at: http://0.0.0.0:8000 (22791)
+[2026-05-31 12:04:27 +0000] [22791] [INFO] Using worker: sync
+[2026-05-31 12:04:27 +0000] [22796] [INFO] Booting worker with pid: 22796
+[2026-05-31 12:04:27 +0000] [22797] [INFO] Booting worker with pid: 22797
+[2026-05-31 12:04:27 +0000] [22798] [INFO] Booting worker with pid: 22798
+[2026-05-31 12:04:28 +0000] [22799] [INFO] Booting worker with pid: 22799
+[2026-05-31 12:04:28 +0000] [22791] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 12:05:05 +0000] [22791] [CRITICAL] WORKER TIMEOUT (pid:22796)
+[2026-05-31 17:35:05 +0530] [22796] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/sync.py", line 140, in handle
+    req = next(parser)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/parser.py", line 111, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 459, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 199, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 471, in parse
+    self.read_into(unreader, buf, stop=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 605, in read_into
+    data = unreader.read()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 36, in read
+    d = self.chunk()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 198, in handle_abort
+    sys.exit(1)
+    ~~~~~~~~^^^
+SystemExit: 1
+[2026-05-31 12:05:06 +0000] [22791] [ERROR] Worker (pid:22796) was sent SIGKILL! Perhaps out of memory?
+[2026-05-31 12:05:06 +0000] [22801] [INFO] Booting worker with pid: 22801
+[2026-05-31 12:05:06 +0000] [22791] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+Not Found: /books/
+Not Found: /books/
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/nav_sidebar.js
+[2026-05-31 12:20:50 +0000] [22791] [CRITICAL] WORKER TIMEOUT (pid:22801)
+[2026-05-31 17:50:50 +0530] [22801] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/sync.py", line 140, in handle
+    req = next(parser)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/parser.py", line 111, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 459, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 199, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 471, in parse
+    self.read_into(unreader, buf, stop=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 605, in read_into
+    data = unreader.read()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 36, in read
+    d = self.chunk()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 198, in handle_abort
+    sys.exit(1)
+    ~~~~~~~~^^^
+SystemExit: 1
+[2026-05-31 12:20:51 +0000] [22791] [ERROR] Worker (pid:22801) was sent SIGKILL! Perhaps out of memory?
+[2026-05-31 12:20:51 +0000] [22977] [INFO] Booting worker with pid: 22977
+[2026-05-31 12:20:51 +0000] [22791] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 17:50:51 +0530] [22977] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 713, in spawn_worker
+    worker.init_process()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 136, in init_process
+    self.load_wsgi()
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/util.py", line 411, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/ubuntu/jenkins/library_management_django/library_project/wsgi.py", line 5, in <module>
+    application = get_wsgi_application()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 893, in get_code
+  File "<frozen importlib._bootstrap_external>", line 823, in source_to_code
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/ubuntu/jenkins/library_management_django/library_app/models.py", line 1
+    id="93nh4l"
+IndentationError: unexpected indent
+unexpected indent (models.py, line 1)
+[2026-05-31 17:50:51 +0530] [22977] [INFO] Worker exiting (pid: 22977)
+[2026-05-31 12:20:51 +0000] [22791] [ERROR] Worker (pid:22977) exited with code 3.
+[2026-05-31 17:50:51 +0530] [22797] [INFO] Worker exiting (pid: 22797)
+[2026-05-31 17:50:51 +0530] [22798] [INFO] Worker exiting (pid: 22798)
+[2026-05-31 17:50:51 +0530] [22799] [INFO] Worker exiting (pid: 22799)
+[2026-05-31 12:20:51 +0000] [22791] [ERROR] Shutting down: Master
+[2026-05-31 12:20:51 +0000] [22791] [ERROR] Reason: Worker failed to boot.
+[2026-05-31 12:31:09 +0000] [23111] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 12:31:09 +0000] [23111] [INFO] Listening at: http://0.0.0.0:8000 (23111)
+[2026-05-31 12:31:09 +0000] [23111] [INFO] Using worker: sync
+[2026-05-31 12:31:09 +0000] [23116] [INFO] Booting worker with pid: 23116
+[2026-05-31 12:31:09 +0000] [23117] [INFO] Booting worker with pid: 23117
+[2026-05-31 12:31:09 +0000] [23118] [INFO] Booting worker with pid: 23118
+[2026-05-31 12:31:09 +0000] [23119] [INFO] Booting worker with pid: 23119
+[2026-05-31 12:31:09 +0000] [23111] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 18:01:09 +0530] [23116] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 713, in spawn_worker
+    worker.init_process()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 136, in init_process
+    self.load_wsgi()
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/util.py", line 411, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/ubuntu/jenkins/library_management_django/library_project/wsgi.py", line 5, in <module>
+    application = get_wsgi_application()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 893, in get_code
+  File "<frozen importlib._bootstrap_external>", line 823, in source_to_code
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/ubuntu/jenkins/library_management_django/library_app/models.py", line 1
+    id="93nh4l"
+IndentationError: unexpected indent
+unexpected indent (models.py, line 1)
+[2026-05-31 18:01:09 +0530] [23116] [INFO] Worker exiting (pid: 23116)
+[2026-05-31 18:01:09 +0530] [23117] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 713, in spawn_worker
+    worker.init_process()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 136, in init_process
+    self.load_wsgi()
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/util.py", line 411, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/ubuntu/jenkins/library_management_django/library_project/wsgi.py", line 5, in <module>
+    application = get_wsgi_application()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 893, in get_code
+  File "<frozen importlib._bootstrap_external>", line 823, in source_to_code
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/ubuntu/jenkins/library_management_django/library_app/models.py", line 1
+    id="93nh4l"
+IndentationError: unexpected indent
+unexpected indent (models.py, line 1)
+[2026-05-31 18:01:09 +0530] [23117] [INFO] Worker exiting (pid: 23117)
+[2026-05-31 12:31:09 +0000] [23111] [ERROR] Worker (pid:23116) exited with code 3.
+[2026-05-31 18:01:09 +0530] [23119] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 713, in spawn_worker
+    worker.init_process()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 136, in init_process
+    self.load_wsgi()
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/util.py", line 411, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/ubuntu/jenkins/library_management_django/library_project/wsgi.py", line 5, in <module>
+    application = get_wsgi_application()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 893, in get_code
+  File "<frozen importlib._bootstrap_external>", line 823, in source_to_code
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/ubuntu/jenkins/library_management_django/library_app/models.py", line 1
+    id="93nh4l"
+IndentationError: unexpected indent
+unexpected indent (models.py, line 1)
+[2026-05-31 18:01:09 +0530] [23119] [INFO] Worker exiting (pid: 23119)
+[2026-05-31 18:01:09 +0530] [23118] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 713, in spawn_worker
+    worker.init_process()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 136, in init_process
+    self.load_wsgi()
+    ~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/util.py", line 411, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/ubuntu/jenkins/library_management_django/library_project/wsgi.py", line 5, in <module>
+    application = get_wsgi_application()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 893, in get_code
+  File "<frozen importlib._bootstrap_external>", line 823, in source_to_code
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/ubuntu/jenkins/library_management_django/library_app/models.py", line 1
+    id="93nh4l"
+IndentationError: unexpected indent
+unexpected indent (models.py, line 1)
+[2026-05-31 18:01:09 +0530] [23118] [INFO] Worker exiting (pid: 23118)
+[2026-05-31 12:31:09 +0000] [23111] [INFO] Worker (pid:23117) was sent SIGTERM!
+[2026-05-31 12:31:09 +0000] [23111] [ERROR] Worker (pid:23118) exited with code 3.
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 246, in run
+    handler()
+    ~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 271, in handle_chld
+    self.reap_workers()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 641, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+             ~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/wsgiapp.py", line 66, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]", prog=prog).run()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/base.py", line 235, in run
+    super().run()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/app/base.py", line 71, in run
+    Arbiter(self).run()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 254, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 378, in halt
+    self.stop()
+    ~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 458, in stop
+    self.reap_workers()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/arbiter.py", line 641, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: argument -w/--workers: invalid int value: '4--bind'
+[2026-05-31 17:33:58 +0000] [30049] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 17:33:58 +0000] [30049] [INFO] Listening at: http://0.0.0.0:8000 (30049)
+[2026-05-31 17:33:58 +0000] [30049] [INFO] Using worker: sync
+[2026-05-31 17:33:58 +0000] [30054] [INFO] Booting worker with pid: 30054
+[2026-05-31 17:33:58 +0000] [30055] [INFO] Booting worker with pid: 30055
+[2026-05-31 17:33:58 +0000] [30056] [INFO] Booting worker with pid: 30056
+[2026-05-31 17:33:58 +0000] [30057] [INFO] Booting worker with pid: 30057
+[2026-05-31 17:33:58 +0000] [30049] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 17:34:37 +0000] [30049] [CRITICAL] WORKER TIMEOUT (pid:30055)
+[2026-05-31 23:04:37 +0530] [30055] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/sync.py", line 140, in handle
+    req = next(parser)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/parser.py", line 111, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 459, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 199, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 471, in parse
+    self.read_into(unreader, buf, stop=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 605, in read_into
+    data = unreader.read()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 36, in read
+    d = self.chunk()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 198, in handle_abort
+    sys.exit(1)
+    ~~~~~~~~^^^
+SystemExit: 1
+[2026-05-31 17:34:38 +0000] [30049] [ERROR] Worker (pid:30055) was sent SIGKILL! Perhaps out of memory?
+[2026-05-31 17:34:38 +0000] [30063] [INFO] Booting worker with pid: 30063
+[2026-05-31 17:34:38 +0000] [30049] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+Not Found: /favicon.ico
+Not Found: /static/vendor/fontawesome-free/css/all.min.css
+[2026-05-31 17:36:40 +0000] [30049] [CRITICAL] WORKER TIMEOUT (pid:30063)
+[2026-05-31 23:06:40 +0530] [30063] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/sync.py", line 140, in handle
+    req = next(parser)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/parser.py", line 111, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 459, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 199, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 471, in parse
+    self.read_into(unreader, buf, stop=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 605, in read_into
+    data = unreader.read()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 36, in read
+    d = self.chunk()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 198, in handle_abort
+    sys.exit(1)
+    ~~~~~~~~^^^
+SystemExit: 1
+Not Found: /static/vendor/adminlte/css/adminlte.min.css
+Not Found: /static/jazzmin/css/main.css
+Not Found: /static/vendor/select2/css/select2.min.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/prepopulate.js
+[2026-05-31 17:36:41 +0000] [30049] [ERROR] Worker (pid:30063) was sent SIGKILL! Perhaps out of memory?
+[2026-05-31 17:36:41 +0000] [30074] [INFO] Booting worker with pid: 30074
+[2026-05-31 17:36:41 +0000] [30049] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/vendor/adminlte/img/AdminLTELogo.png
+Not Found: /static/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/jazzmin/js/change_list.js
+Not Found: /static/vendor/select2/js/select2.min.js
+Not Found: /static/vendor/adminlte/js/adminlte.min.js
+Not Found: /static/jazzmin/js/main.js
+Not Found: /static/jazzmin/css/main.css
+Not Found: /static/vendor/fontawesome-free/css/all.min.css
+Not Found: /static/vendor/adminlte/css/adminlte.min.css
+Not Found: /static/vendor/select2/css/select2.min.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/vendor/adminlte/img/AdminLTELogo.png
+Not Found: /static/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/vendor/adminlte/js/adminlte.min.js
+Not Found: /static/jazzmin/js/main.js
+Not Found: /static/vendor/select2/js/select2.min.js
+Not Found: /static/jazzmin/js/change_list.js
+Not Found: /static/vendor/fontawesome-free/css/all.min.css
+Not Found: /static/vendor/select2/css/select2.min.css
+Not Found: /static/vendor/adminlte/css/adminlte.min.css
+Not Found: /static/jazzmin/css/main.css
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/vendor/adminlte/img/AdminLTELogo.png
+Not Found: /static/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /static/vendor/adminlte/js/adminlte.min.js
+Not Found: /static/jazzmin/js/main.js
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/vendor/select2/js/select2.min.js
+Not Found: /static/jazzmin/js/change_list.js
+Not Found: /static/vendor/fontawesome-free/css/all.min.css
+Not Found: /static/vendor/adminlte/css/adminlte.min.css
+Not Found: /static/vendor/select2/css/select2.min.css
+Not Found: /static/jazzmin/css/main.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/vendor/adminlte/img/AdminLTELogo.png
+Not Found: /static/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /static/jazzmin/js/main.js
+Not Found: /static/vendor/select2/js/select2.min.js
+Not Found: /static/vendor/adminlte/js/adminlte.min.js
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/jazzmin/js/change_list.js
+Not Found: /static/vendor/fontawesome-free/css/all.min.css
+Not Found: /static/vendor/adminlte/css/adminlte.min.css
+Not Found: /static/jazzmin/css/main.css
+Not Found: /static/vendor/select2/css/select2.min.css
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/vendor/adminlte/img/AdminLTELogo.png
+Not Found: /static/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/jazzmin/js/main.js
+Not Found: /static/vendor/adminlte/js/adminlte.min.js
+Not Found: /static/vendor/select2/js/select2.min.js
+Not Found: /static/jazzmin/js/change_list.js
+Not Found: /favicon.ico
+[2026-05-31 17:39:24 +0000] [30049] [CRITICAL] WORKER TIMEOUT (pid:30057)
+[2026-05-31 23:09:24 +0530] [30057] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/sync.py", line 140, in handle
+    req = next(parser)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/parser.py", line 111, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 459, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 199, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 471, in parse
+    self.read_into(unreader, buf, stop=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 605, in read_into
+    data = unreader.read()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 36, in read
+    d = self.chunk()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 198, in handle_abort
+    sys.exit(1)
+    ~~~~~~~~^^^
+SystemExit: 1
+[2026-05-31 17:39:25 +0000] [30049] [ERROR] Worker (pid:30057) was sent SIGKILL! Perhaps out of memory?
+[2026-05-31 17:39:25 +0000] [30088] [INFO] Booting worker with pid: 30088
+[2026-05-31 17:39:25 +0000] [30049] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 17:41:46 +0000] [30049] [INFO] Handling signal: term
+[2026-05-31 23:11:46 +0530] [30074] [INFO] Worker exiting (pid: 30074)
+[2026-05-31 23:11:46 +0530] [30054] [INFO] Worker exiting (pid: 30054)
+[2026-05-31 23:11:46 +0530] [30088] [INFO] Worker exiting (pid: 30088)
+[2026-05-31 23:11:46 +0530] [30056] [INFO] Worker exiting (pid: 30056)
+[2026-05-31 17:41:46 +0000] [30049] [INFO] Worker (pid:30054) was sent SIGTERM!
+[2026-05-31 17:41:46 +0000] [30049] [INFO] Worker (pid:30056) was sent SIGTERM!
+[2026-05-31 17:41:46 +0000] [30049] [INFO] Worker (pid:30074) was sent SIGTERM!
+[2026-05-31 17:41:46 +0000] [30049] [INFO] Worker (pid:30088) was sent SIGTERM!
+[2026-05-31 17:41:46 +0000] [30049] [INFO] Shutting down: Master
+[2026-05-31 17:41:54 +0000] [30129] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 17:41:54 +0000] [30129] [INFO] Listening at: http://0.0.0.0:8000 (30129)
+[2026-05-31 17:41:54 +0000] [30129] [INFO] Using worker: sync
+[2026-05-31 17:41:54 +0000] [30134] [INFO] Booting worker with pid: 30134
+[2026-05-31 17:41:54 +0000] [30135] [INFO] Booting worker with pid: 30135
+[2026-05-31 17:41:54 +0000] [30136] [INFO] Booting worker with pid: 30136
+[2026-05-31 17:41:54 +0000] [30137] [INFO] Booting worker with pid: 30137
+[2026-05-31 17:41:54 +0000] [30129] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+Not Found: /static/vendor/fontawesome-free/css/all.min.css
+Not Found: /static/jazzmin/css/main.css
+Not Found: /static/vendor/adminlte/css/adminlte.min.css
+Not Found: /static/vendor/select2/css/select2.min.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/vendor/adminlte/img/AdminLTELogo.png
+Not Found: /static/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/vendor/adminlte/js/adminlte.min.js
+Not Found: /static/jazzmin/js/main.js
+Not Found: /static/vendor/select2/js/select2.min.js
+Not Found: /static/jazzmin/js/change_list.js
+Not Found: /static/vendor/adminlte/css/adminlte.min.css
+Not Found: /static/vendor/fontawesome-free/css/all.min.css
+Not Found: /static/jazzmin/css/main.css
+Not Found: /static/vendor/select2/css/select2.min.css
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/vendor/adminlte/img/AdminLTELogo.png
+Not Found: /static/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /static/vendor/select2/js/select2.min.js
+Not Found: /static/jazzmin/js/main.js
+Not Found: /static/vendor/adminlte/js/adminlte.min.js
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/jazzmin/js/change_list.js
+[2026-05-31 17:45:20 +0000] [30184] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 17:45:20 +0000] [30184] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 17:45:20 +0000] [30184] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 17:45:21 +0000] [30184] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 17:45:21 +0000] [30184] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 17:45:22 +0000] [30184] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 17:45:22 +0000] [30184] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 17:45:23 +0000] [30184] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 17:45:23 +0000] [30184] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 17:45:24 +0000] [30184] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 17:45:24 +0000] [30184] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 17:45:25 +0000] [30184] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2026-05-31 17:45:28 +0000] [30129] [INFO] Handling signal: term
+[2026-05-31 23:15:28 +0530] [30134] [INFO] Worker exiting (pid: 30134)
+[2026-05-31 23:15:28 +0530] [30136] [INFO] Worker exiting (pid: 30136)
+[2026-05-31 23:15:28 +0530] [30137] [INFO] Worker exiting (pid: 30137)
+[2026-05-31 23:15:28 +0530] [30135] [INFO] Worker exiting (pid: 30135)
+[2026-05-31 17:45:28 +0000] [30129] [INFO] Worker (pid:30134) was sent SIGTERM!
+[2026-05-31 17:45:28 +0000] [30129] [INFO] Worker (pid:30136) was sent SIGTERM!
+[2026-05-31 17:45:28 +0000] [30205] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 17:45:28 +0000] [30205] [INFO] Listening at: http://0.0.0.0:8000 (30205)
+[2026-05-31 17:45:28 +0000] [30205] [INFO] Using worker: sync
+[2026-05-31 17:45:28 +0000] [30210] [INFO] Booting worker with pid: 30210
+[2026-05-31 17:45:28 +0000] [30211] [INFO] Booting worker with pid: 30211
+[2026-05-31 17:45:28 +0000] [30212] [INFO] Booting worker with pid: 30212
+[2026-05-31 17:45:28 +0000] [30213] [INFO] Booting worker with pid: 30213
+[2026-05-31 17:45:28 +0000] [30129] [INFO] Shutting down: Master
+[2026-05-31 17:45:28 +0000] [30205] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 17:45:40 +0000] [30205] [INFO] Handling signal: term
+[2026-05-31 23:15:40 +0530] [30210] [INFO] Worker exiting (pid: 30210)
+[2026-05-31 23:15:40 +0530] [30211] [INFO] Worker exiting (pid: 30211)
+[2026-05-31 23:15:40 +0530] [30212] [INFO] Worker exiting (pid: 30212)
+[2026-05-31 23:15:40 +0530] [30213] [INFO] Worker exiting (pid: 30213)
+[2026-05-31 17:45:41 +0000] [30237] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 17:45:41 +0000] [30237] [INFO] Listening at: http://0.0.0.0:8000 (30237)
+[2026-05-31 17:45:41 +0000] [30237] [INFO] Using worker: sync
+[2026-05-31 17:45:41 +0000] [30242] [INFO] Booting worker with pid: 30242
+[2026-05-31 17:45:41 +0000] [30205] [INFO] Worker (pid:30210) was sent SIGTERM!
+[2026-05-31 17:45:41 +0000] [30205] [INFO] Worker (pid:30211) was sent SIGTERM!
+[2026-05-31 17:45:41 +0000] [30205] [INFO] Worker (pid:30212) was sent SIGTERM!
+[2026-05-31 17:45:41 +0000] [30205] [INFO] Worker (pid:30213) was sent SIGTERM!
+[2026-05-31 17:45:41 +0000] [30243] [INFO] Booting worker with pid: 30243
+[2026-05-31 17:45:41 +0000] [30244] [INFO] Booting worker with pid: 30244
+[2026-05-31 17:45:41 +0000] [30245] [INFO] Booting worker with pid: 30245
+[2026-05-31 17:45:41 +0000] [30205] [INFO] Shutting down: Master
+[2026-05-31 17:45:41 +0000] [30237] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+Not Found: /static/vendor/fontawesome-free/css/all.min.css
+Not Found: /static/vendor/adminlte/css/adminlte.min.css
+Not Found: /static/jazzmin/css/main.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/vendor/adminlte/img/AdminLTELogo.png
+Not Found: /static/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /static/vendor/adminlte/js/adminlte.min.js
+Not Found: /static/jazzmin/js/main.js
+[2026-05-31 17:48:10 +0000] [30237] [INFO] Handling signal: term
+[2026-05-31 23:18:10 +0530] [30242] [INFO] Worker exiting (pid: 30242)
+[2026-05-31 23:18:10 +0530] [30243] [INFO] Worker exiting (pid: 30243)
+[2026-05-31 23:18:10 +0530] [30244] [INFO] Worker exiting (pid: 30244)
+[2026-05-31 23:18:10 +0530] [30245] [INFO] Worker exiting (pid: 30245)
+[2026-05-31 17:48:10 +0000] [30237] [INFO] Worker (pid:30242) was sent SIGTERM!
+[2026-05-31 17:48:10 +0000] [30237] [INFO] Worker (pid:30243) was sent SIGTERM!
+[2026-05-31 17:48:10 +0000] [30237] [INFO] Worker (pid:30244) was sent SIGTERM!
+[2026-05-31 17:48:10 +0000] [30237] [INFO] Worker (pid:30245) was sent SIGTERM!
+[2026-05-31 17:48:10 +0000] [30237] [INFO] Shutting down: Master
+[2026-05-31 17:48:16 +0000] [30301] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 17:48:16 +0000] [30301] [INFO] Listening at: http://0.0.0.0:8000 (30301)
+[2026-05-31 17:48:16 +0000] [30301] [INFO] Using worker: sync
+[2026-05-31 17:48:16 +0000] [30306] [INFO] Booting worker with pid: 30306
+[2026-05-31 17:48:16 +0000] [30307] [INFO] Booting worker with pid: 30307
+[2026-05-31 17:48:16 +0000] [30308] [INFO] Booting worker with pid: 30308
+[2026-05-31 17:48:16 +0000] [30309] [INFO] Booting worker with pid: 30309
+[2026-05-31 17:48:16 +0000] [30301] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+Not Found: /static/vendor/fontawesome-free/css/all.min.css
+Not Found: /static/vendor/adminlte/css/adminlte.min.css
+Not Found: /static/jazzmin/css/main.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /static/vendor/adminlte/img/AdminLTELogo.png
+Not Found: /static/jazzmin/js/main.js
+Not Found: /static/vendor/adminlte/js/adminlte.min.js
+Not Found: /static/vendor/adminlte/img/AdminLTELogo.png
+Not Found: /static/vendor/fontawesome-free/css/all.min.css
+Not Found: /static/jazzmin/css/main.css
+Not Found: /static/vendor/adminlte/css/adminlte.min.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/vendor/adminlte/img/AdminLTELogo.png
+Not Found: /static/vendor/adminlte/js/adminlte.min.js
+Not Found: /static/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /static/jazzmin/js/main.js
+Not Found: /static/vendor/fontawesome-free/css/all.min.css
+Not Found: /static/jazzmin/css/main.css
+Not Found: /static/vendor/adminlte/css/adminlte.min.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/vendor/adminlte/js/adminlte.min.js
+Not Found: /static/vendor/adminlte/img/AdminLTELogo.png
+Not Found: /static/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /static/jazzmin/js/main.js
+[2026-05-31 17:51:48 +0000] [30301] [INFO] Handling signal: term
+[2026-05-31 23:21:48 +0530] [30307] [INFO] Worker exiting (pid: 30307)
+[2026-05-31 23:21:48 +0530] [30306] [INFO] Worker exiting (pid: 30306)
+[2026-05-31 23:21:48 +0530] [30308] [INFO] Worker exiting (pid: 30308)
+[2026-05-31 23:21:48 +0530] [30309] [INFO] Worker exiting (pid: 30309)
+[2026-05-31 17:51:48 +0000] [30301] [INFO] Worker (pid:30306) was sent SIGTERM!
+[2026-05-31 17:51:48 +0000] [30301] [INFO] Worker (pid:30307) was sent SIGTERM!
+[2026-05-31 17:51:48 +0000] [30301] [INFO] Worker (pid:30308) was sent SIGTERM!
+[2026-05-31 17:51:48 +0000] [30301] [INFO] Shutting down: Master
+[2026-05-31 17:51:55 +0000] [30404] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 17:51:55 +0000] [30404] [INFO] Listening at: http://0.0.0.0:8000 (30404)
+[2026-05-31 17:51:55 +0000] [30404] [INFO] Using worker: sync
+[2026-05-31 17:51:55 +0000] [30409] [INFO] Booting worker with pid: 30409
+[2026-05-31 17:51:55 +0000] [30410] [INFO] Booting worker with pid: 30410
+[2026-05-31 17:51:55 +0000] [30411] [INFO] Booting worker with pid: 30411
+[2026-05-31 17:51:55 +0000] [30412] [INFO] Booting worker with pid: 30412
+[2026-05-31 17:51:55 +0000] [30404] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 17:52:53 +0000] [30404] [CRITICAL] WORKER TIMEOUT (pid:30412)
+[2026-05-31 23:22:53 +0530] [30412] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/sync.py", line 140, in handle
+    req = next(parser)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/parser.py", line 111, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 459, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 199, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 471, in parse
+    self.read_into(unreader, buf, stop=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 605, in read_into
+    data = unreader.read()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 36, in read
+    d = self.chunk()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 198, in handle_abort
+    sys.exit(1)
+    ~~~~~~~~^^^
+SystemExit: 1
+[2026-05-31 17:52:54 +0000] [30404] [ERROR] Worker (pid:30412) was sent SIGKILL! Perhaps out of memory?
+[2026-05-31 17:52:54 +0000] [30418] [INFO] Booting worker with pid: 30418
+[2026-05-31 17:52:54 +0000] [30404] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 17:53:41 +0000] [30404] [CRITICAL] WORKER TIMEOUT (pid:30409)
+[2026-05-31 23:23:41 +0530] [30409] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/sync.py", line 140, in handle
+    req = next(parser)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/parser.py", line 111, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 459, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 199, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 471, in parse
+    self.read_into(unreader, buf, stop=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/message.py", line 605, in read_into
+    data = unreader.read()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 36, in read
+    d = self.chunk()
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/ubuntu/jenkins/library_management_django/venv/lib/python3.14/site-packages/gunicorn/workers/base.py", line 198, in handle_abort
+    sys.exit(1)
+    ~~~~~~~~^^^
+SystemExit: 1
+[2026-05-31 17:53:42 +0000] [30404] [ERROR] Worker (pid:30409) was sent SIGKILL! Perhaps out of memory?
+[2026-05-31 17:53:42 +0000] [30425] [INFO] Booting worker with pid: 30425
+[2026-05-31 17:53:42 +0000] [30404] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 17:55:37 +0000] [30450] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 17:55:37 +0000] [30450] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 17:55:37 +0000] [30450] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 17:55:38 +0000] [30450] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 17:55:38 +0000] [30450] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 17:55:39 +0000] [30450] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 17:55:39 +0000] [30450] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 17:55:40 +0000] [30450] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 17:55:40 +0000] [30450] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 17:55:41 +0000] [30450] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 17:55:41 +0000] [30450] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 17:55:42 +0000] [30450] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2026-05-31 18:02:40 +0000] [30404] [INFO] Handling signal: term
+[2026-05-31 23:32:40 +0530] [30425] [INFO] Worker exiting (pid: 30425)
+[2026-05-31 23:32:40 +0530] [30410] [INFO] Worker exiting (pid: 30410)
+[2026-05-31 23:32:40 +0530] [30411] [INFO] Worker exiting (pid: 30411)
+[2026-05-31 23:32:40 +0530] [30418] [INFO] Worker exiting (pid: 30418)
+[2026-05-31 18:02:40 +0000] [30531] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 18:02:40 +0000] [30531] [INFO] Listening at: http://0.0.0.0:8000 (30531)
+[2026-05-31 18:02:40 +0000] [30531] [INFO] Using worker: sync
+[2026-05-31 18:02:40 +0000] [30536] [INFO] Booting worker with pid: 30536
+[2026-05-31 18:02:40 +0000] [30404] [INFO] Worker (pid:30410) was sent SIGTERM!
+[2026-05-31 18:02:40 +0000] [30404] [INFO] Worker (pid:30411) was sent SIGTERM!
+[2026-05-31 18:02:40 +0000] [30404] [INFO] Worker (pid:30418) was sent SIGTERM!
+[2026-05-31 18:02:40 +0000] [30404] [INFO] Worker (pid:30425) was sent SIGTERM!
+[2026-05-31 18:02:40 +0000] [30537] [INFO] Booting worker with pid: 30537
+[2026-05-31 18:02:40 +0000] [30404] [INFO] Shutting down: Master
+[2026-05-31 18:02:40 +0000] [30538] [INFO] Booting worker with pid: 30538
+[2026-05-31 18:02:40 +0000] [30539] [INFO] Booting worker with pid: 30539
+[2026-05-31 18:02:40 +0000] [30531] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 18:11:18 +0000] [30531] [INFO] Handling signal: term
+[2026-05-31 23:41:18 +0530] [30538] [INFO] Worker exiting (pid: 30538)
+[2026-05-31 23:41:18 +0530] [30536] [INFO] Worker exiting (pid: 30536)
+[2026-05-31 23:41:18 +0530] [30539] [INFO] Worker exiting (pid: 30539)
+[2026-05-31 23:41:18 +0530] [30537] [INFO] Worker exiting (pid: 30537)
+[2026-05-31 18:11:18 +0000] [30531] [INFO] Worker (pid:30536) was sent SIGTERM!
+[2026-05-31 18:11:18 +0000] [30531] [INFO] Worker (pid:30538) was sent SIGTERM!
+[2026-05-31 18:11:18 +0000] [30531] [INFO] Worker (pid:30539) was sent SIGTERM!
+[2026-05-31 18:11:18 +0000] [30758] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 18:11:18 +0000] [30758] [INFO] Listening at: http://0.0.0.0:8000 (30758)
+[2026-05-31 18:11:18 +0000] [30758] [INFO] Using worker: sync
+[2026-05-31 18:11:18 +0000] [30763] [INFO] Booting worker with pid: 30763
+[2026-05-31 18:11:18 +0000] [30764] [INFO] Booting worker with pid: 30764
+[2026-05-31 18:11:18 +0000] [30765] [INFO] Booting worker with pid: 30765
+[2026-05-31 18:11:18 +0000] [30766] [INFO] Booting worker with pid: 30766
+[2026-05-31 18:11:18 +0000] [30531] [INFO] Shutting down: Master
+[2026-05-31 18:11:18 +0000] [30758] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 18:21:47 +0000] [30758] [INFO] Handling signal: term
+[2026-05-31 23:51:47 +0530] [30763] [INFO] Worker exiting (pid: 30763)
+[2026-05-31 23:51:47 +0530] [30764] [INFO] Worker exiting (pid: 30764)
+[2026-05-31 23:51:47 +0530] [30765] [INFO] Worker exiting (pid: 30765)
+[2026-05-31 23:51:47 +0530] [30766] [INFO] Worker exiting (pid: 30766)
+[2026-05-31 18:21:47 +0000] [30758] [INFO] Worker (pid:30763) was sent SIGTERM!
+[2026-05-31 18:21:47 +0000] [30758] [INFO] Worker (pid:30764) was sent SIGTERM!
+[2026-05-31 18:21:47 +0000] [30942] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 18:21:47 +0000] [30942] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2026-05-31 18:21:47 +0000] [30942] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2026-05-31 18:21:48 +0000] [30758] [INFO] Shutting down: Master
+[2026-05-31 18:21:48 +0000] [30942] [INFO] Listening at: http://0.0.0.0:8000 (30942)
+[2026-05-31 18:21:48 +0000] [30942] [INFO] Using worker: sync
+[2026-05-31 18:21:48 +0000] [30947] [INFO] Booting worker with pid: 30947
+[2026-05-31 18:21:49 +0000] [30948] [INFO] Booting worker with pid: 30948
+[2026-05-31 18:21:49 +0000] [30949] [INFO] Booting worker with pid: 30949
+[2026-05-31 18:21:49 +0000] [30950] [INFO] Booting worker with pid: 30950
+[2026-05-31 18:21:49 +0000] [30942] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 18:30:26 +0000] [30942] [INFO] Handling signal: term
+[2026-06-01 00:00:26 +0530] [30948] [INFO] Worker exiting (pid: 30948)
+[2026-06-01 00:00:26 +0530] [30949] [INFO] Worker exiting (pid: 30949)
+[2026-06-01 00:00:26 +0530] [30950] [INFO] Worker exiting (pid: 30950)
+[2026-06-01 00:00:26 +0530] [30947] [INFO] Worker exiting (pid: 30947)
+[2026-05-31 18:30:26 +0000] [30942] [INFO] Worker (pid:30948) was sent SIGTERM!
+[2026-05-31 18:30:26 +0000] [30942] [INFO] Worker (pid:30949) was sent SIGTERM!
+[2026-05-31 18:30:26 +0000] [31036] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 18:30:26 +0000] [31036] [INFO] Listening at: http://0.0.0.0:8000 (31036)
+[2026-05-31 18:30:26 +0000] [31036] [INFO] Using worker: sync
+[2026-05-31 18:30:26 +0000] [31041] [INFO] Booting worker with pid: 31041
+[2026-05-31 18:30:26 +0000] [31042] [INFO] Booting worker with pid: 31042
+[2026-05-31 18:30:26 +0000] [31043] [INFO] Booting worker with pid: 31043
+[2026-05-31 18:30:26 +0000] [31044] [INFO] Booting worker with pid: 31044
+[2026-05-31 18:30:26 +0000] [30942] [INFO] Shutting down: Master
+[2026-05-31 18:30:26 +0000] [31036] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 18:41:01 +0000] [31036] [INFO] Handling signal: hup
+[2026-05-31 18:41:01 +0000] [31036] [INFO] Hang up: Master
+[2026-05-31 18:41:01 +0000] [31121] [INFO] Booting worker with pid: 31121
+[2026-05-31 18:41:01 +0000] [31036] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 18:41:03 +0000] [31123] [INFO] Booting worker with pid: 31123
+[2026-05-31 18:41:03 +0000] [31036] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 18:41:05 +0000] [31125] [INFO] Booting worker with pid: 31125
+[2026-05-31 18:41:05 +0000] [31036] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 18:41:07 +0000] [31036] [WARNING] Worker (pid:31041) was sent SIGHUP!
+[2026-05-31 18:41:07 +0000] [31127] [INFO] Booting worker with pid: 31127
+[2026-05-31 18:41:07 +0000] [31036] [WARNING] Worker (pid:31042) was sent SIGHUP!
+[2026-05-31 18:41:07 +0000] [31036] [WARNING] Worker (pid:31043) was sent SIGHUP!
+[2026-05-31 18:41:07 +0000] [31036] [WARNING] Worker (pid:31044) was sent SIGHUP!
+[2026-05-31 18:41:07 +0000] [31036] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-05-31 18:45:35 +0000] [31036] [INFO] Handling signal: term
+[2026-06-01 00:15:35 +0530] [31121] [INFO] Worker exiting (pid: 31121)
+[2026-06-01 00:15:35 +0530] [31123] [INFO] Worker exiting (pid: 31123)
+[2026-06-01 00:15:35 +0530] [31125] [INFO] Worker exiting (pid: 31125)
+[2026-06-01 00:15:35 +0530] [31127] [INFO] Worker exiting (pid: 31127)
+[2026-05-31 18:45:35 +0000] [31683] [INFO] Starting gunicorn 26.0.0
+[2026-05-31 18:45:35 +0000] [31683] [INFO] Listening at: http://0.0.0.0:8000 (31683)
+[2026-05-31 18:45:35 +0000] [31683] [INFO] Using worker: sync
+[2026-05-31 18:45:35 +0000] [31688] [INFO] Booting worker with pid: 31688
+[2026-05-31 18:45:35 +0000] [31689] [INFO] Booting worker with pid: 31689
+[2026-05-31 18:45:35 +0000] [31036] [INFO] Worker (pid:31121) was sent SIGTERM!
+[2026-05-31 18:45:35 +0000] [31036] [INFO] Worker (pid:31123) was sent SIGTERM!
+[2026-05-31 18:45:35 +0000] [31036] [INFO] Worker (pid:31125) was sent SIGTERM!
+[2026-05-31 18:45:35 +0000] [31036] [INFO] Worker (pid:31127) was sent SIGTERM!
+[2026-05-31 18:45:35 +0000] [31690] [INFO] Booting worker with pid: 31690
+[2026-05-31 18:45:35 +0000] [31691] [INFO] Booting worker with pid: 31691
+[2026-05-31 18:45:35 +0000] [31036] [INFO] Shutting down: Master
+[2026-05-31 18:45:35 +0000] [31683] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl

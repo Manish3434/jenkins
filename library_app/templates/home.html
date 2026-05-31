@@ -1,0 +1,534 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Smart Library Dashboard</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:
+    linear-gradient(
+    135deg,
+    #020617,
+    #000814,
+    #020617
+    );
+
+    min-height:100vh;
+
+    font-family:Arial;
+
+    color:white;
+
+    overflow-x:hidden;
+}
+
+/* NAVBAR */
+
+.navbar-custom{
+
+    width:100%;
+
+    padding:20px 40px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:rgba(255,255,255,0.05);
+
+    backdrop-filter:blur(20px);
+
+    box-shadow:
+    0 0 20px rgba(0,0,0,0.3);
+}
+
+.logo{
+
+    font-size:38px;
+
+    font-weight:bold;
+}
+
+.nav-buttons{
+
+    display:flex;
+
+    gap:20px;
+}
+
+.nav-btn{
+
+    text-decoration:none;
+
+    color:white;
+
+    background:
+    linear-gradient(
+    45deg,
+    #2563eb,
+    #9333ea
+    );
+
+    padding:12px 30px;
+
+    border-radius:15px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+}
+
+.nav-btn:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:
+    0 0 20px rgba(147,51,234,0.7);
+
+    color:white;
+}
+
+/* MAIN */
+
+.main{
+
+    padding:50px;
+}
+
+.title{
+
+    font-size:55px;
+
+    font-weight:bold;
+
+    margin-bottom:50px;
+}
+
+/* CARDS */
+
+.card-box{
+
+    background:
+    rgba(255,255,255,0.05);
+
+    border-radius:30px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:0.4s;
+
+    backdrop-filter:blur(20px);
+
+    box-shadow:
+    0 0 20px rgba(0,0,0,0.4);
+
+    height:100%;
+}
+
+.card-box:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 0 40px rgba(56,189,248,0.5);
+}
+
+.card-icon{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+    color:#38bdf8;
+}
+
+.card-title{
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+    color:white;
+}
+
+.card-number{
+
+    font-size:55px;
+
+    font-weight:bold;
+
+    color:#38bdf8;
+}
+
+/* CHART */
+
+.chart-section{
+
+    margin-top:60px;
+
+    background:
+    rgba(255,255,255,0.05);
+
+    border-radius:30px;
+
+    padding:40px;
+
+    backdrop-filter:blur(20px);
+}
+
+.chart-title{
+
+    font-size:35px;
+
+    margin-bottom:30px;
+}
+
+.table{
+
+    margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<div class="navbar-custom">
+
+    <div class="logo">
+
+        📚 Smart Library
+
+    </div>
+
+    <div class="nav-buttons">
+
+        <a href="/books/" class="nav-btn">
+
+            Books
+
+        </a>
+
+        <a href="/students/" class="nav-btn">
+
+            Students
+
+        </a>
+
+        <a href="/admin/" class="nav-btn">
+
+            Admin
+
+        </a>
+
+    </div>
+
+</div>
+
+<!-- MAIN -->
+
+<div class="main">
+
+    <div class="title">
+
+        Smart Library Dashboard
+
+    </div>
+
+    <div class="row g-4">
+
+        <div class="col-md-3">
+
+            <a href="/books/"
+            style="text-decoration:none;">
+
+                <div class="card-box">
+
+                    <div class="card-icon">
+
+                        <i class="fa-solid fa-book"></i>
+
+                    </div>
+
+                    <div class="card-title">
+
+                        Total Books
+
+                    </div>
+
+                    <div class="card-number">
+
+                        {{ total_books }}
+
+                    </div>
+
+                </div>
+
+            </a>
+
+        </div>
+
+        <div class="col-md-3">
+
+            <a href="/students/"
+            style="text-decoration:none;">
+
+                <div class="card-box">
+
+                    <div class="card-icon">
+
+                        <i class="fa-solid fa-user-graduate"></i>
+
+                    </div>
+
+                    <div class="card-title">
+
+                        Total Students
+
+                    </div>
+
+                    <div class="card-number">
+
+                        {{ total_students }}
+
+                    </div>
+
+                </div>
+
+            </a>
+
+        </div>
+
+        <div class="col-md-3">
+
+            <a href="/admin/library_app/bookissue/"
+            style="text-decoration:none;">
+
+                <div class="card-box">
+
+                    <div class="card-icon">
+
+                        <i class="fa-solid fa-book-open"></i>
+
+                    </div>
+
+                    <div class="card-title">
+
+                        Books Issued
+
+                    </div>
+
+                    <div class="card-number">
+
+                        {{ books_issued }}
+
+                    </div>
+
+                </div>
+
+            </a>
+
+        </div>
+
+        <div class="col-md-3">
+
+            <a href="/admin/library_app/bookreturn/"
+            style="text-decoration:none;">
+
+                <div class="card-box">
+
+                    <div class="card-icon">
+
+                        <i class="fa-solid fa-rotate-left"></i>
+
+                    </div>
+
+                    <div class="card-title">
+
+                        Books Returned
+
+                    </div>
+
+                    <div class="card-number">
+
+                        {{ books_returned }}
+
+                    </div>
+
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- CHART -->
+
+    <div class="chart-section">
+
+        <div class="chart-title">
+
+            📊 Library Analytics
+
+        </div>
+
+        <div style="
+        width:400px;
+        margin:auto;
+        ">
+
+            <canvas id="myChart"></canvas>
+
+        </div>
+
+        <!-- TABLE -->
+
+        <table class="table table-dark table-hover">
+
+            <thead>
+
+                <tr>
+
+                    <th>ID</th>
+
+                    <th>Activity</th>
+
+                    <th>Status</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>1</td>
+
+                    <td>New Book Added</td>
+
+                    <td style="color:#22c55e;">
+
+                        Active
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>2</td>
+
+                    <td>Student Registered</td>
+
+                    <td style="color:#38bdf8;">
+
+                        Completed
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>3</td>
+
+                    <td>Book Returned</td>
+
+                    <td style="color:#f97316;">
+
+                        Returned
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+<script>
+
+const ctx = document.getElementById('myChart');
+
+new Chart(ctx, {
+
+    type:'doughnut',
+
+    data:{
+
+        labels:[
+
+            'Books',
+            'Students',
+            'Issued',
+            'Returned'
+        ],
+
+        datasets:[{
+
+            data:[
+
+                {{ total_books }},
+                {{ total_students }},
+                {{ books_issued }},
+                {{ books_returned }}
+            ],
+
+            backgroundColor:[
+
+                '#38bdf8',
+                '#9333ea',
+                '#22c55e',
+                '#f97316'
+            ],
+
+            borderWidth:0
+        }]
+    }
+});
+
+</script>
+
+</body>
+
+</html>
+
