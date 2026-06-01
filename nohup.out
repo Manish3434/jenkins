@@ -1129,3 +1129,8 @@ SystemExit: 1
 [2026-05-31 18:45:35 +0000] [31691] [INFO] Booting worker with pid: 31691
 [2026-05-31 18:45:35 +0000] [31036] [INFO] Shutting down: Master
 [2026-05-31 18:45:35 +0000] [31683] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
+[2026-06-01 06:13:54 +0000] [21220] [INFO] Starting gunicorn 26.0.0
+[2026-06-01 06:13:54 +0000] [21220] [INFO] Listening at: http://0.0.0.0:8000 (21220)
+[2026-06-01 06:13:54 +0000] [21220] [INFO] Using worker: sync
+[2026-06-01 06:13:54 +0000] [21225] [INFO] Booting worker with pid: 21225
+[2026-06-01 06:13:54 +0000] [21220] [INFO] Control socket listening at /run/user/1000/gunicorn.ctl
