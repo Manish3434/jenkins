@@ -1,3 +1,5 @@
+
+
 pipeline {
 
     agent any
@@ -38,19 +40,19 @@ pipeline {
             }
         }
 
-stage('Deploy') {
-    steps {
-        sh '''
-        pkill gunicorn || true
+        stage('Deploy') {
 
-        BUILD_ID=dontKillMe nohup venv/bin/gunicorn \
-        --workers 4 \
-        --bind 0.0.0.0:8000 \
-        library_project.wsgi:application \
-        > gunicorn.log 2>&1 &
-        '''
-    }
-}
+            steps {
+
+                sh '''
+                pkill gunicorn || true
+
+                BUILD_ID=dontKillMe nohup venv/bin/gunicorn \
+                --workers 4 \
+                --bind 0.0.0.0:8000 \
+                library_project.wsgi:application \
+                > gunicorn.log 2>&1 &
+                '''
             }
         }
     }
