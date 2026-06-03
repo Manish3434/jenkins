@@ -43,11 +43,15 @@ pipeline {
             steps {
 
                 sh '''
-                pkill gunicorn || true
-                nohup venv/bin/gunicorn --workers 4 --bind 0.0.0.0:8000 library_project.wsgi:application &
-                '''
+                nohup venv/bin/gunicorn \
+--workers 4 \
+--bind 0.0.0.0:8000 \
+library_project.wsgi:application \
+> gunicorn.log 2>&1 &               
+'''
             }
         }
     }
 }
+
 
