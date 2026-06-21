@@ -1,4 +1,4 @@
-pipeline {
+    pipeline {
 
     agent any
 
@@ -9,47 +9,63 @@ pipeline {
             steps {
 
                 git branch: 'master',
-                url: 'https://github.com/Manish3434/jenkins.git'
+                    url: 'https://github.com/Manish3434/jenkins.git'
             }
         }
 
-        stage('Install Dependencies') {
+        stage('Build Docker Image') {
 
             steps {
 
                 sh '''
-                python3 -m venv venv
-                . venv/bin/activate
-                pip install -r requirements.txt
+                sudo docker build -t manishkumar34/manish-library-app:latest .
                 '''
             }
         }
 
-        stage('Migrate') {
+        stage('Docker Login') {
+
+            steps {
+
+                withCredentials([
+                    usernamePassword(
+                        credentialsId: 'dockerhub',
+                        usernameVariable: 'DOCKER_USER',
+                        passwordVariable: 'DOCKER_PASS'
+                    )
+                ]) {
+
+                    sh '''
+                    echo $DOCKER_PASS | sudo docker login -u $DOCKER_USER --password-stdin
+                    '''
+                }
+            }
+        }
+
+        stage('Push Docker Image') {
 
             steps {
 
                 sh '''
-                . venv/bin/activate
-                python manage.py makemigrations
-                python manage.py migrate
-                python manage.py collectstatic --noinput
+                sudo docker push manishkumar34/manish-library-app:latest
                 '''
             }
         }
 
-        stage('Deploy') {
+        stage('Deploy Container') {
 
             steps {
 
                 sh '''
-                nohup venv/bin/gunicorn \
---workers 4 \
---bind 0.0.0.0:8000 \
-library_project.wsgi:application  & 
+                sudo docker rm -f library-app || true
+
+                sudo docker run -d \
+                --name library-app \
+                -p 8000:8000 \
+                manishkumar34/manish-library-app:latest
                 '''
             }
         }
     }
-}
+} 
 
