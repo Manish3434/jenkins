@@ -18,7 +18,7 @@
             steps {
 
                 sh '''
-                sudo docker build -t manishkumar34/manish-library-app:latest .
+                 docker build -t manishkumar34/manish-library-app:latest .
                 '''
             }
         }
@@ -36,7 +36,7 @@
                 ]) {
 
                     sh '''
-                    echo $DOCKER_PASS | sudo docker login -u $DOCKER_USER --password-stdin
+                    echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
                     '''
                 }
             }
@@ -47,7 +47,7 @@
             steps {
 
                 sh '''
-                sudo docker push manishkumar34/manish-library-app:latest
+                 docker push manishkumar34/manish-library-app:latest
                 '''
             }
         }
@@ -57,9 +57,9 @@
             steps {
 
                 sh '''
-                sudo docker rm -f library-app || true
+                 docker rm -f library-app || true
 
-                sudo docker run -d \
+                docker run -d \
                 --name library-app \
                 -p 8000:8000 \
                 manishkumar34/manish-library-app:latest
@@ -68,4 +68,3 @@
         }
     }
 } 
-
